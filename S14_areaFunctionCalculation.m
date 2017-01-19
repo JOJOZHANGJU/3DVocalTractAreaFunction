@@ -28,5 +28,6 @@ plot((1:length(C))/10, C,'k-');
 xlabel('Distance from glottis [cm]');ylabel('Area [c©O]');
 axis([0 14 0 10]);
 set(gca,'xtick',0:2:14,'ytick',0:2:10);
+
  
-save Data\S14_Area Area;
+save Data\S14_LHa_Area Area;
